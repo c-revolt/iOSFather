@@ -6,6 +6,7 @@ from bot.commands.bot_commands import bot_commands
 
 async def courses_command(message: types.Message) -> None:
     await message.answer(
+        '🎓 <b>[ КУРСЫ ]</b>\n\n'
 
         '📙 <b>Основы + UIKit</b>\n\n'
         '📖 <a href="https://developer.apple.com/swift-playgrounds/">Learn to code with Swift Playgrounds</a>'
